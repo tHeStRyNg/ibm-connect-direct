@@ -60,3 +60,4 @@ options.txt – This is the response file, where all required parameters are pro
 
 #### References
 - https://www.ibm.com/docs/en/connect-direct/6.2.0?topic=guide-installation-overview - Silent Install
+- How To Video - https://www.youtube.com/watch?v=fKPDeftv2Co
