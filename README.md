@@ -29,7 +29,7 @@ Installation process is straight forward and simple, but before execution, let�
 
 options.txt – This is the response file, where all required parameters are provided. Let’s look at the fields, which needs to be updated as per your environment.
 
-**Parameter	            Description**
+**options.txt Parameter	            Description**
 - cdai_cpioFile	    This is the Connect Direct Installer
 - cdai_installDir	    Base Installation Directory
 - cdai_localNodeName	    Hostname
