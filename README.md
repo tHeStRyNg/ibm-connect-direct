@@ -57,3 +57,6 @@ options.txt – This is the response file, where all required parameters are pro
 
 - ```exitStatusFile.txt```
 - ```cdaiLog.txt```
+
+#### References
+- https://www.ibm.com/docs/en/connect-direct/6.2.0?topic=guide-installation-overview - Silent Install
