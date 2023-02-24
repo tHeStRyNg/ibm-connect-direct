@@ -30,14 +30,14 @@ Installation process is straight forward and simple, but before execution, let�
 
 - options.txt – This is the response file, where all required parameters are provided. Let’s look at the fields, which needs to be updated as per your environment.
 
-```        Parameter	            Description
-        cdai_cpioFile	        This is the Connect Direct Installer
-        cdai_installDir	        Base Installation Directory
-        cdai_localNodeName	    Hostname
-        cdai_serverPort	        Listen Port for Server Connections
-        cdai_clientPort	API     Port
-        cdai_localCertFile	    Keycert file containing the Key and Certificate
-        cdai_adminUserid	    User ID designated as admin in the host```
+***Parameter	            Description***
+```cdai_cpioFile	    This is the Connect Direct Installer```
+```cdai_installDir	    Base Installation Directory```
+```cdai_localNodeName	    Hostname```
+```cdai_serverPort	    Listen Port for Server Connections```
+```cdai_clientPort	    API Port```
+```cdai_localCertFile	    Keycert file containing the Key and Certificate```
+```cdai_adminUserid	    User ID designated as admin in the host```
 
 #### Step 2. Place all these files in the installation directory:
 - cdinstall
