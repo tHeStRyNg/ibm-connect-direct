@@ -55,5 +55,5 @@ options.txt – This is the response file, where all required parameters are pro
 
 #### Step 4. Once finished, check below 2 files for any errors or non-zero exit code:
 
-i. - ```exitStatusFile.txt```
-ii - ```cdaiLog.txt```
+- ```exitStatusFile.txt```
+- ```cdaiLog.txt```
