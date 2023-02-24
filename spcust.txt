@@ -1,0 +1,56 @@
+	sync netmap 
+	path=/home/control/cdunix/ndm/cfg/osboxes/netmap.cfg
+	name=*
+    ;
+    ;
+    ; -- Import KeyCert
+    ;
+    Import KeyCert
+        File=/tmp/keycertfiles/keycert
+        Passphrase=P@ssw0rd
+        Label=control
+        ImportMode=Add
+    ;
+    ;
+    ; -- Import TrustedCert
+    ;
+    ;Import TrustedCert
+    ;    File=/tmp/keycertfiles/cert
+    ;    ImportMode=Add
+    ;
+    ;
+    ; -- Update LocalNode
+    ;
+    Update LocalNode
+        Protocol=TLS1.2
+        Override=n
+        AuthTimeout=120
+        KeyCertLabel=control
+        EncryptData=y
+        ClientAuth=n
+        CipherSuites=All
+        SeaEnable=n
+    ; -- Update RemoteNode
+    ;
+    ;Update RemoteNode
+    ;    name=ansible1
+    ;    Protocol=TLS1.2
+    ;    Override=n
+    ;    AuthTimeout=120
+    ;    KeyCertLabel=control
+    ;    EncryptData=y
+    ;    ClientAuth=n
+    ;    CipherSuites=All
+    ;    SeaEnable=n
+    ;
+    ;
+    ; -- Display localnode
+    ;
+    display localnode
+    ; 
+    ;
+    ; -- Validate parmfile
+    ;
+    validate parmfile
+    ;
+

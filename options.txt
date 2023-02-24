@@ -1,0 +1,12 @@
+cdai_trace="y"
+cdai_installCmd="install"
+cdai_cpioFile=4.2.0.4-SterlingConnectDirectforUNIX-Linux-x86-iFix056.tar
+cdai_installDir="/home/control/cdunix"
+cdai_spConfig=spcust_control.sh
+cdai_localNodeName=osboxes
+cdai_acquireHostnameOrIP=ip4
+cdai_serverPort=13364
+cdai_clientPort=13363
+cdai_localCertFile="/tmp/keycertfiles/keycert"
+cdai_keystorePassword="P@ssw0rd"
+cdai_adminUserid=control
